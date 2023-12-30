@@ -411,7 +411,7 @@ public void onItemClick(AdapterView<?> parent, View view, int position, long id)
 
 Для этого первым делом создадим переменные-ссылки на кнопки:
 
-```Button ok_btn, cnc_btn;``
+``Button ok_btn, cnc_btn;``
 
 И найдем эти элементы по идентификатору, как раньше:
 
