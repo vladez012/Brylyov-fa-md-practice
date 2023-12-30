@@ -1,7 +1,7 @@
 # Mobile-development
 
 
-## Практика студентов Финансового университета
+## <div style="text-align: right">Практика студентов Финансового университета</div>
 
 
 # Java Android Studio
