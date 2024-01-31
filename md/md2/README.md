@@ -106,8 +106,8 @@ View.OnClickListener clickListener = new View.OnClickListener() {
 
 Запустим наше приложение. Мы должны увидеть работающую кнопку и счетчик нажатий:
 
-![image4](images/image22.png "image4")
-![image4](images/image21.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image22.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image21.png "image4")
 
 
 При желании Вы можете изменить оформление или позиционирование этих элементов.
@@ -146,14 +146,14 @@ View.OnClickListener clickListener = new View.OnClickListener() {
 
 Создайте новый проект. 
 
-![image4](images/image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image1.png "image4")
 
 В процессе создания проекта, среда разработки подготавливает необходимые папки и файлы. Полный иерархический список обязательных элементов проекта можно увидеть на вкладке Package Explorer
 
 В настоящее время нас будет интересовать назначение нескольких файлов и папок.
 ### Рассмотрим папки:
 
-![image4](images/image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image1.png "image4")
 
 •	папка src - содержит файлы с исходным кодом на языке Java. Именно в этой папке размещаются все классы, создаваемые в процессе разработки приложения. Сейчас в этой папке в пакете com.example.projectn размещается единственный класс MainActivity.java. Этот класс определяет главную и единственную активность в этом приложении.
 - 1: Имя пакету присваивается в процессе создания приложения в поле Package Name, использовать com.example не рекомендуется, т. к. пакет с таким именем нельзя загрузить в Google Play. Часто рекомендуют использовать в качестве имени пакета название сайта программиста, записанное в обратном порядке, можно просто использовать свои имя и фамилию. Последнее слово в имени пакета формируется автоматически и совпадает с именем проекта.
@@ -179,7 +179,7 @@ http://developer.android.com/guide/topics/manifest/manifest-intro.html.
 
 Схематично интерфейс приложения изображен на рисунке:
 
-![image4](images/image8.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image8.png "image4")
 
 Нам необходимо добавить на форму три элемента: 
     
@@ -195,7 +195,7 @@ Android IDE поддерживает два способа для выполне
 
 Зададим табличное расположение компонентов на форме, для этого выберем вкладку Layouts, найдем там TableLayout и добавим его на форму:
 
-![image4](images/image11.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image11.png "image4")
 
 Настройка интерфейса, добавление TableLayout
 
@@ -207,13 +207,13 @@ Android IDE поддерживает два способа для выполне
 
 - В-третьих, вернемся на вкладку Buttons, выберем там элемент Button и добавим в третью строку таблицы. Ненужную четвертую строку таблицы удалим, получим следующий вид приложения.
 
-![image4](images/image6.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image6.png "image4")
 
 Интерфейс приложения
 
 После настройки интерфейса можно заглянуть в файл activity_main.xml, в этом файле прописано, что используется TableLayout и дано описание каждой из трех строк. На рисунке можно увидеть, как выглядит такое описание на примере первой строки таблицы.
 
-![image4](images/image2.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image2.png "image4")
 
 Фрагмент файла activity_main.xml, описание строки в TableLayout
 
@@ -221,13 +221,13 @@ Android IDE поддерживает два способа для выполне
 
 Для хранения любых строк, которые могут понадобиться приложению, используется файл strings.xml. Хранение всех строковых ресурсов в этом файле серьезно облегчает локализацию приложения на другие языки. Этот файл можно найти в Package Explorer в папке res/values. Откроем его и посмотрим, что там есть.
 
-![image4](images/image4.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image4.png "image4")
 
 Файл string.xml
 
 Уберем лишние строки и добавим новые.
 
-![image4](images/image12.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image12.png "image4")
 
 Отредактированный файл string.xml
 
@@ -249,13 +249,13 @@ error сообщит о неверном вводе.
 
 Аналогично можно настроить текст, которым нас будет приветствовать кнопка, только в этом случае надо работать с элементом button1.
 
-![image4](images/image9.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image9.png "image4")
 
 Настройка текста для кнопки button1
 
 Пришло время вспомнить о виртуальном устройстве, если оно работает, уже можно запустить проект и посмотреть, как приложение будет выглядеть на экране устройства, а выглядеть оно может так.
 
-![image4](images/image10.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image10.png "image4")
 
 Запуск приложения на виртуальном устройстве
 
@@ -269,12 +269,12 @@ error сообщит о неверном вводе.
 
 Приступим непосредственно к программированию, работать будем с файлом src/com.example.projectn/MainActivity.java. Найдем этот файл в Package Explorer, откроем и начнем редактировать.
 
-![image4](images/image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image1.png "image4")
 
 Рис. 4.13. Файл MainActivity.java в Package Explorer
 Пока файл выглядит следующим образом.
 
-![image4](images/image7.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image7.png "image4")
 
 Файл MainActivity.java после создания приложения
 
@@ -303,12 +303,12 @@ error сообщит о неверном вводе.
 
 Пришло время выполнить обработку нажатия на кнопку. Вернемся к файлу activity_main.xml в графический режим редактирования, выберем элемент Button и на вкладке со свойствами элемента найдем свойство On Click и запишем в него onClick - имя метода, который будет обрабатывать нажатие на кнопку. 
 
-![image4](images/image5.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image5.png "image4")
 
 Настройка свойства On Click для кнопки
 Эти же действия можно выполнить в фале activity_main.xml, достаточно дописать выделенную строку:
 
-![image4](images/image3.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/image3.png "image4")
 
 Для настройки свойств элементов интерфейса достаточно использовать любой способ: графический или редактирование XML файла.
 
@@ -401,11 +401,11 @@ public void onClick(View v) {
 
 как показано на рисунке:
 
-![image4](images/3image02.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image02.png "image4")
 
 Мы должны увидеть окно добавления нового окна (активити), которое весьма похоже на окно, появляющееся при создании нового проекта. Здесь мы можем ввести имя нашего нового компонента, имя файла с расположением элементов и некоторые другие параметры. Преимуществом этого способа создания новой активити является то, что студия автоматизирует весь процесс за нас, создает все необходимые файлы и вносит нужные дополнения в файл манифеста. 
 
-![image4](images/3image03.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image03.png "image4")
 
 При нажатии на кнопку Finish мы должны увидеть два новых файла в нашем проекте - один с программным кодом и один с XML расположением. Обратите внимание, что оба окна приложения, несмотря на то, что являются независимыми компонентами приложения, существуют в одном адресном пространстве. 
 
@@ -500,13 +500,13 @@ protected void onDestroy() {
 Для более полной информации можете самостоятельно добавить соответствующие сообщения во вторую активити.
 Теперь запустим наше приложение и убедимся, что все работает, как нужно:
 
-![image4](images/3image05.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image05.png "image4")
 
-![image4](images/3image01.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image01.png "image4")
 
 Мы можем посмотреть диагностические сообщения, которые посылает и сама система, и студия, и непосредственно наше приложение в окне Logcat студии. Для удобства отфильтруем сообщения по нашей метке States:
 
-![image4](images/3image04.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image04.png "image4")
 
 Теперь вы знаете, как создавать и вызывать новое окно в составе вашего приложения. 
 
@@ -705,20 +705,20 @@ tvDate.setText(textInfo + datetime);
 
 Теперь все готово для запуска приложения. На основном экране мы должны увидеть две кнопки:
 
-![image4](images/3image7.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image7.png "image4")
 
 При нажатии на одну из них нам предоставляется выбор, какую активность запустить для выполнения соответствующего действия:
 
-![image4](images/3image6.png "image4")
-![image4](images/3image9.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image6.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image9.png "image4")
 
 При повторном выбор того же действия система запомнит наш выбор:
 
-![image4](images/3image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image1.png "image4")
 
-![image4](images/3image12.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image12.png "image4")
 
-![image4](images/3image3.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image3.png "image4")
 
 Таким образом можно использовать действия для запуска различных активностей. В данной работе мы определили собственное действие, существующее только в нашем приложении. Однако, точно таким же образом можно использовать стандартные действия, определенные самой системой для выполнения распространенных задач. 
 
@@ -769,11 +769,11 @@ tvDate.setText(textInfo + datetime);
     tvView.setText("Your name is: " + lName);
 
 Общая схема работы нашего приложения теперь выглядит так. Обращаем внимание, что мы модифицировали только активность “Info”, две остальные не получают из интена дополнительных полей (хотя они туда все равно передаются). 
-![image4](images/3image5.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image5.png "image4")
 
-![image4](images/3image10.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image10.png "image4")
 
-![image4](images/3image11.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image11.png "image4")
 
 - # Возвращение результатов из интента
 Часто требуется запустить активность для того, чтобы получить из нее какой-либо результат. Для этого изучим механизм возврата значения из активности. 
@@ -879,11 +879,11 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 Проверим работоспособность нашего приложения:
 
-![image4](images/3image4.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image4.png "image4")
 
-![image4](images/3image8.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image8.png "image4")
 
-![image4](images/3image2.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/3image2.png "image4")
 
 
 ## Контрольные вопросы
@@ -942,31 +942,31 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 путь: app &gt; src &gt; res и вызовите контекстное меню (правой кнопкой
 мыши):
 
-![image4](images/231.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/231.png "image4")
 
 Здесь, как можно увидеть на скриншоте, мы выбираем: New > Image Asset. И попадаем во вкладку, где необходимо указать путь к изображению, задать ему имя и выбрать тип (в нашем случае Image):
 
-![image4](images/232.jpeg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/232.jpeg "image4")
 
 Изображение, это файл с расширением *.png, с разрешением 512х512 точек. Для примера, я взял png с разрешением 256х256, чтобы можно было почувствовать разницу. После чего нажимаем Next.
 
-![image4](images/233.jpeg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/233.jpeg "image4")
 
 После чего мы видим сообщение о том, что будет заменено текущее изображение загрузчика.
 
-![image4](images/234.jpeg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/234.jpeg "image4")
 
 Кстати текущее изображение, можно загрузить и на рабочую область.
 
-![image4](images/235.jpeg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/235.jpeg "image4")
 
 Здесь как раз отчётливо видна разница между изображениями 256х256 и 512х512.
 
-![image4](images/236.jpeg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/236.jpeg "image4")
 
  И кстати, если Вам необходимо добавить изображение для Вашего проекта, то выбрав New > Image Asset, укажите панель Action Bar and Tab Icons.
 
-![image4](images/237.jpeg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md2/images/237.jpeg "image4")
 
 ## Контрольные вопросы
 1. Что такое событийно-ориентированное программирование?

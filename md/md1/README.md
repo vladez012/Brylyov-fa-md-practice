@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
 Давайте запустим это приложение в эмуляторе. На экране виртуального устройства мы должны увидеть следующее:
 
-![image4](images/image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image1.png "image4")
 
 - # Модификация строки
 Сейчас строка, отображаемая на экране забита в коде layout’а. 
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
 Проверим правильность внесенных правок, запустив приложение на эмуляторе. Вы должны увидеть следующее:
 
-![image4](images/image8.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image8.png "image4")
 
 - # Другое расположение
 Обратите внимание на первую строку в файле ```activiy_main.xml:```
@@ -155,7 +155,7 @@ android:layout_marginLeft="20dp"
 
 Проверим расположение элемента в эмуляторе:
 
-![image4](images/image3.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image3.png "image4")
 
 - # Доступ к ресурсам из кода
 Для того, чтобы приложение было динамическим, нужно иметь возможность изменять визуальные элементы и их свойства из программного кода. 
@@ -187,7 +187,7 @@ android:layout_marginLeft="20dp"
 
 Так как метод onCreate() выполняется сразу при запуске приложения, запустив его в эмуляторе мы должны сразу увидеть модифицированную строку.
 
-![image4](images/image10.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image10.png "image4")
 
 - # Простая кнопка
 Добавим кнопку к нашему приложению. 
@@ -248,8 +248,8 @@ public void onClick(View v) {
 
 Теперь при нажатии на кнопку надпись в текстовом поле должна измениться:
 
-![image4](images/image10.png "image10")
-![image4](images/image14.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image10.png "image10")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image14.png "image4")
 
 - # Текстовый ввод
 Теперь мы будем добавлять поле текстового ввода. 
@@ -295,9 +295,9 @@ public void onClick(View v) {   mainTextView.setText(mainEditText.getText().toSt
 }
 ```
 
-![image4](images/image7.png "image4")
-![image4](images/image15.png "image4")
-![image4](images/image4.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image7.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image15.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image4.png "image4")
 
 
 - # Списки
@@ -342,7 +342,7 @@ mArrayAdapter.notifyDataSetChanged();
 ```
 Теперь мы можем добавлять элементы к списку:
 
-![image4](images/image12.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image12.png "image4")
 
 - # Интерактивный список
 Иметь простой список в приложении не очень интересно, ведь он не умеет реагировать на нажатия пользователя.
@@ -462,9 +462,9 @@ View.OnClickListener oclBtn = new View.OnClickListener() {
 
 Проверим наше приложение. Все должно работать так, как надо:
 
-![image4](images/image2.png "image4")
-![image4](images/image6.png "image4")
-![image4](images/image11.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image2.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image6.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image11.png "image4")
 
 - # Всплывающие сообщения
 Реагировать на все действия пользователя тем, чтобы менять текст в одной надписи не очень интересно. 
@@ -483,8 +483,8 @@ Toast.makeText(getApplicationContext()
 
 Добавим соответствующие сообщения в обработчик события так, чтобы при нажатии на каждую кнопку выводилось свое сообщение:
 
-![image4](images/image13.png "image4")
-![image4](images/image11.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image13.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image11.png "image4")
 
 
 ## Контрольные вопросы

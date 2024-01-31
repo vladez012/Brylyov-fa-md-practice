@@ -65,11 +65,11 @@ Android даёт службам более высокий приоритет, ч
 
 Чтобы определить службу, необходимо создать новый класс, расширяющий базовый класс Service. Можно воспользоваться готовым мастером создания класса для сервиса в Android Studio. Щёлкаем правой кнопкой мыши на папке java (или на имени пакета) и выбираем New | Service | Service:
 
-![image4](images/1image2.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image2.png "image4")
 
 В следующем окне выбираем имя сервиса (флажки оставляем) и нажимаем кнопку Finish.
 
-![image4](images/1image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image1.png "image4")
 
 Получим заготовку.
 ```java
@@ -110,7 +110,7 @@ public class MyService extends Service {
     onStartCommand()
     onDestroy()
 
-![image4](images/1image4.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image4.png "image4")
 
 Для быстрого создания заготовок нужных методов используйте команду меню Code | Override Methods... или набирайте сразу имя метода, используя автодополнение.
 
@@ -258,21 +258,21 @@ public class MainActivity extends AppCompatActivity {
 
 Итак, создадим новый проект. Аудиофайл должен находиться в папке res/raw, поэтому добавим в проект в Android Studio такую папку. Для этого нажмем на папку res правой кнопкой мыши и в появившемся меню выберем New -> Android Resource Directory:
 
-![image4](images/1image3.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image3.png "image4")
 
 Затем в появившемся окне в качестве типа папки укажем raw (что также будет использоваться в качестве названия папки):
 
-![image4](images/1image6.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image6.png "image4")
 
 И скопируем в нее какой-нибудь аудио-файл, предварительно открыв папку в файловом менеджере.
-![image4](images/1image5.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image5.png "image4")
 
 
-![image4](images/1image8.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image8.png "image4")
 
 Запустите приложение, прослушайте музыку. Обратите внимание, что когда приложение сворачивается, музыка продолжает играть.
 
-![image4](images/1image7.jpg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/1image7.jpg "image4")
 
 ## Дополнительные задания
 Создайте проигрыватель PlayService.java для воспроизведения списка песен из плей-листа.
@@ -328,11 +328,11 @@ public void sendMessage(View view) {
 
 Щёлкаем правой кнопкой мыши на названии пакета и выбираем New | Other | Broadcast Receiver
 
-![image4](images/image3.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/image3.png "image4")
 
 В диалоговом окне задаём имя приёмника, остальные настройки оставляем без изменений.
 
-![image4](images/image1.png "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/image1.png "image4")
 
 Студия создаст изменения в двух местах. Во-первых, будет создан класс MessageReceiver:
 
@@ -397,7 +397,7 @@ public void onReceive(Context context, Intent intent) {
 
  Чтобы улучшить пользовательский интерфейс, Android 8.0 (уровень API 26) накладывает ограничения на то, что приложения могут делать во время работы в фоновом режиме.
  
- ![image4](images/image2.png "image4")
+ ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/image2.png "image4")
 
   В этом скриншоте приводятся изменения в коде приложения, чтобы оно хорошо работало в соответствии с новыми ограничениями.
 
@@ -467,7 +467,7 @@ toast.show();
 Уведомления выводятся на 3 с половиной секунды или на 2 секунды.
 
 
-![image4](images/image001.jpg "image4")
+![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md5/images/image001.jpg "image4")
 
 По умолчанию стандартное всплывающее уведомление появляется в нижней части экрана. Изменить место появления уведомления можно с помощью метода setGravity(int, int, int). Метод принимает три параметра:
 - стандартная константа для размещения объекта в пределах большего контейнера (например, GRAVITY.CENTER, GRAVITY.TOP и др.);
