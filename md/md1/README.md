@@ -514,16 +514,16 @@ Toast.makeText(getApplicationContext()
 
 - # Практика: LinearLayout		
 
-[Видео](https://www.youtube.com/watch?v=s4T0QDe6Ie8)		
+* [Видео](https://www.youtube.com/watch?v=s4T0QDe6Ie8)		
 - # Практика: RelativeLayout		
 
-[Видео](https://www.youtube.com/watch?v=rFhjGmLvTzc)		
+ * [Видео](https://www.youtube.com/watch?v=rFhjGmLvTzc)		
 - # Практика: TableLayout		
 
-[Видео](https://www.youtube.com/watch?v=VuNcCZ7JGKc)	
+ * [Видео](https://www.youtube.com/watch?v=VuNcCZ7JGKc)	
 - # Практика: ConstraintLayout		
 
-[Видео](https://www.youtube.com/watch?v=v5VwDmxxcik)	
+* [Видео](https://www.youtube.com/watch?v=v5VwDmxxcik)	
 - # Практика: WebView		
 
 [Видео](https://www.youtube.com/watch?v=TQGJO_JDUh0)	
