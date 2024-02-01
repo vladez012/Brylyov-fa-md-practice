@@ -1,19 +1,11 @@
-# Mobile-development
 
 
-## <div style="text-align: right">Практика студентов Финансового университета</div>
 
 
-# Хранение данных
-__________________________________________
 
-# [Методичка](http://koroteev.site/md/)
+# Практика: Простое хранение данных
 
-
-- # Лекция: Работа с поставщиками контента	
-Тест https://docs.google.com/forms/d/e/1FAIpQLSdEM7JuKJpehPQR9eNL7EnSHjabultJoCm-7WLAJKYzOTrHbA/viewform
-
-- # Практика: Простое хранение данных
+### [Тест к Лекции Работа с поставщиками контента](https://docs.google.com/forms/d/e/1FAIpQLSdEM7JuKJpehPQR9eNL7EnSHjabultJoCm-7WLAJKYzOTrHbA/viewform)
 
 Цель работы
 
@@ -129,11 +121,11 @@ public void onClick(View v) {
 
 Модифицируйте программу таким образом, чтобы прогресс игрока сохранялся между запусками программы. Придумайте схему хранения состояния игры.
 
-- # Практика: Файл общих настроек	
-	Видео		https://www.youtube.com/watch?v=ELmKfOjzIEU
-- # Практика: Внутреннее хранилище	
-	Видео		https://www.youtube.com/watch?v=ieQKoc75c_Y
-- # Практика: Работа с базой данных
+### Практика: Файл общих настроек	
+* [Видео](https://www.youtube.com/watch?v=ELmKfOjzIEU)
+### Практика: Внутреннее хранилище	
+* [Видео](https://www.youtube.com/watch?v=ieQKoc75c_Y)
+### Практика: Работа с базой данных
 
 Цель работы
 

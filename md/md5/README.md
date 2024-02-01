@@ -1,22 +1,15 @@
-# Mobile-development
-
-
-## <div style="text-align: right">Практика студентов Финансового университета</div>
-
 
 # Сервисы
-__________________________________________
-
-# [Методичка](http://koroteev.site/md/)
 
 
-- # Лекция: Сервисы, приемники сообщений и параллелизм	
-Тест https://docs.google.com/forms/d/e/1FAIpQLSccJOlT0tiM2ZYrXseHF9L4tKYIyvNrZYzaUa8GjAJ5BapzCw/viewform
-- # Практика: Создание фонового потока		
-Видео		https://www.youtube.com/watch?v=lwTePPpVf-k
-- # Практика: Управление интерфейсом через Handler
-Видео		https://www.youtube.com/watch?v=OqsJInROJOk
-- # Практика: Жизненный цикл сервиса
+
+### [Тест k Лекция: Сервисы, приемники сообщений и параллелизм](https://docs.google.com/forms/d/e/1FAIpQLSccJOlT0tiM2ZYrXseHF9L4tKYIyvNrZYzaUa8GjAJ5BapzCw/viewform)
+
+### Практика: Создание фонового потока		
+* [Видео](https://www.youtube.com/watch?v=lwTePPpVf-k)
+### Практика: Управление интерфейсом через Handler
+* [Видео](https://www.youtube.com/watch?v=OqsJInROJOk)
+### Практика: Жизненный цикл сервиса
 
 
 Цель работы
@@ -45,9 +38,9 @@ __________________________________________
 
 Добавьте логирование методов жизненного цикла активности. Пронаблюдайте за ней. 
 
-- # Практика: Возврат данных через Pending Intent	
-	Видео		https://www.youtube.com/watch?v=MO-9VbPsCmk
-- # Практика: Работа с сервисами
+### Практика: Возврат данных через Pending Intent	
+* [Видео](https://www.youtube.com/watch?v=MO-9VbPsCmk)
+### Практика: Работа с сервисами
 
 Цель работы
 
@@ -288,7 +281,7 @@ https://developer.android.com/about/versions/oreo/background.html
 
 
 
-- # Практика: Работа с широковещательными сообщениями
+### Практика: Работа с широковещательными сообщениями
 Цель работы
 
     Познакомится с сервисами Android Studio и научиться создавать приложения принимающие и отправляющие сообщения.
@@ -412,7 +405,7 @@ http://developer.alexanderklimov.ru/android/broadcast.php
 https://developer.android.com/about/versions/oreo/background.html
 
 
-- # Работа с уведомлениями
+### Работа с уведомлениями
 Цель работы
 
     Познакомиться с приемами работы с уведомлениями, из связи с сервисами и отложенными намерениями.
@@ -442,7 +435,7 @@ https://developer.android.com/about/versions/oreo/background.html
 Сделайте приложение заметок, в котором можно создать заметку из постоянного уведомления (вводя текст прямо в нем). Заметки должны храниться в файле настроек и демонстрироваться в активности в виде списка.
 
 
-- #  Практика :Всплывающие уведомления
+###  Практика :Всплывающие уведомления
 Цель работы
 
     Познакомится с сервисами Android Studio и научиться создавать приложения принимающие и отправляющие сообщения.

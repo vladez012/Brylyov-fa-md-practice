@@ -1,26 +1,16 @@
-# Mobile-development
-
-
-## <div style="text-align: right">Практика студентов Финансового университета</div>
-
 
 # Введение в мобильную разработку
-__________________________________________
 
-# [Методичка](http://koroteev.site/md/)
 
-- # Лекция: Основные понятия разработки для мобильных платформ
-# Тестирование
+#### [Тестирование после Лекции: Основные понятия разработки для мобильных платформ](https://docs.google.com/forms/d/e/1FAIpQLSfWQa4NqEeXnldrpDkBWI8sQgfg33w4Kjdb5Sx0PsCtMYdzGA/viewform)
 
-https://docs.google.com/forms/d/e/1FAIpQLSfWQa4NqEeXnldrpDkBWI8sQgfg33w4Kjdb5Sx0PsCtMYdzGA/viewform
-
-- # Практика: Установка Android Studio. “Hello, World”
+### Практика: Работа в Android Studio. “Hello, World”
 
 Цель работы
 
-    Получить навыки установки и первоначальной настройки среды разработки, получить базовое представление о структуре приложения и порядке его запуска.
+    Получить навыки первоначальной настройки среды разработки, получить базовое представление о структуре приложения и порядке его запуска.
 ## Задания для выполнения
-Установите на компьютер среды разработки JDK и Android Studio.
+
 
 Запустите Android Studio. 
 
@@ -85,9 +75,9 @@ mainTextView = (TextView) findViewById(R.id.main_textview);
 mainTextView.setText(“Set in Java!”);
 ```
 
-- # Практика: Знакомство с интерфейсом Android Studio	
-	Видео		https://www.youtube.com/watch?v=jKyuM0ciuBM
-- # Практика: Создание первого проекта в Android Studio	
-	Видео		https://www.youtube.com/watch?v=8p9znyCGyHw
-- # Практика: Структура кода Android проекта
-	Видео		https://www.youtube.com/watch?v=5v8xEiE1BNg
+### Практика: Знакомство с интерфейсом Android Studio	
+* [Видео](https://www.youtube.com/watch?v=jKyuM0ciuBM)
+### Практика: Создание первого проекта в Android Studio	
+* [Видео](https://www.youtube.com/watch?v=8p9znyCGyHw)
+### Практика: Структура кода Android проекта
+* [Видео](https://www.youtube.com/watch?v=5v8xEiE1BNg)

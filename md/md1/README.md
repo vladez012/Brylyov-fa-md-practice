@@ -1,31 +1,25 @@
-# Mobile-development
 
 
-## <div style="text-align: right">Практика студентов Финансового университета</div>
+# Практика: Элементы пользовательского интерфейса
 
+# [Слайды Лекции Элементы пользовательского интерфейса](https://docs.google.com/presentation/d/1SnEA1RD-VsTlizTZu899pKSbtBMvZPEdRLboXTenwLE/edit?usp=sharing)
 
-# Элементы пользовательского интерфейса
-__________________________________________
+# Layout’ы и View
 
-# [Методичка](http://koroteev.site/md/)
-
-
-- # Лекция: Элементы пользовательского интерфейса	
- Слайды https://docs.google.com/presentation/d/1SnEA1RD-VsTlizTZu899pKSbtBMvZPEdRLboXTenwLE/edit?usp=sharing
-
-- # Практика: Основные элементы
-- # Layout’ы и View
-Цель работы
+### Цель работы
 
     Познакомится с основными визуальными элементами приложения и приемами работы с ними
+
 ## Задания для выполнения
 Внимательно прочтите и повторите в своем проекте методические указания.
 
 Попробуйте креативно подойти к размещению и оформлению элементов. Экспериментируйте.
 
 ## Методические указания
+___
 
-- # Начальное состояние
+### Начальное состояние
+
 
 Давайте познакомимся с содержимым основных файлов нашего проекта.
 
@@ -91,7 +85,11 @@ public class MainActivity extends AppCompatActivity {
 
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image1.png "image4")
 
-- # Модификация строки
+
+### Модификация строки
+________
+
+
 Сейчас строка, отображаемая на экране забита в коде layout’а. 
 Обычно это считается плохим тоном при разработке поддерживаемых приложений. 
 Поэтому давайте выделим эту строку в текстовый ресурс:
@@ -129,7 +127,10 @@ public class MainActivity extends AppCompatActivity {
 
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image8.png "image4")
 
-- # Другое расположение
+
+### Другое расположение
+_______________________
+
 Обратите внимание на первую строку в файле ```activiy_main.xml:```
 
 
@@ -157,7 +158,11 @@ android:layout_marginLeft="20dp"
 
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image3.png "image4")
 
-- # Доступ к ресурсам из кода
+
+### Доступ к ресурсам из кода
+____________________
+
+
 Для того, чтобы приложение было динамическим, нужно иметь возможность изменять визуальные элементы и их свойства из программного кода. 
 
 Для этого хотя бы нужно уметь обращаться к ним из файла с кодом активити. 
@@ -189,7 +194,10 @@ android:layout_marginLeft="20dp"
 
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image10.png "image4")
 
-- # Простая кнопка
+### Простая кнопка
+____________________
+
+
 Добавим кнопку к нашему приложению. 
 Для того, чтобы на кнопке отображалась надпись, заранее создадим для нее текстовый ресурс:
 
@@ -251,7 +259,10 @@ public void onClick(View v) {
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image10.png "image10")
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image14.png "image4")
 
-- # Текстовый ввод
+### Текстовый ввод
+________________
+
+
 Теперь мы будем добавлять поле текстового ввода. 
 Для этого добавим еще один вложенный линейный layout после текстового поля и поместим нашу кнопку внутрь него:
 
@@ -300,7 +311,10 @@ public void onClick(View v) {   mainTextView.setText(mainEditText.getText().toSt
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image4.png "image4")
 
 
-- # Списки
+### Списки
+______________
+
+
 Теперь изучим еще один визуальный элемент - список (ListView). 
 
 Создадим его под кнопкой с полем:
@@ -344,7 +358,10 @@ mArrayAdapter.notifyDataSetChanged();
 
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image12.png "image4")
 
-- # Интерактивный список
+### Интерактивный список
+_________________
+
+
 Иметь простой список в приложении не очень интересно, ведь он не умеет реагировать на нажатия пользователя.
 
 Добавим же ему такой возможности. 
@@ -374,7 +391,7 @@ public void onItemClick(AdapterView<?> parent, View view, int position, long id)
 ```
 
 Самостоятельно проверьте работоспособность программы.
-- # Организация обработки событий
+### Организация обработки событий
 Давайте рассмотрим другой способ создания обработчика события - в отдельном классе. 
 
 Заодно рассмотрим довольно частый сценарий - назначение одного обработчика нажатию на разные кнопки. 
@@ -466,7 +483,10 @@ View.OnClickListener oclBtn = new View.OnClickListener() {
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image6.png "image4")
 ![image4](https://github.com/VladimirAndropov/fa-md-practice/raw/main/md/md1/images/image11.png "image4")
 
-- # Всплывающие сообщения
+### Всплывающие сообщения
+_______________
+
+
 Реагировать на все действия пользователя тем, чтобы менять текст в одной надписи не очень интересно. 
 Сейчас мы посмотрим, как просто в Android можно создавать всплывающие сообщения. 
 
@@ -488,6 +508,9 @@ Toast.makeText(getApplicationContext()
 
 
 ## Контрольные вопросы
+________
+
+
 Какие основные элементы управления Вы изучили?
 
 Как происходит группировка элементов управления на странице?
@@ -508,25 +531,25 @@ Toast.makeText(getApplicationContext()
 Реализуйте возможность удаления выделенного элемента списка. 
 
 
-- # Практика: Представления элементов
+### Практика: Представления элементов
 
 [Методичка](https://drive.google.com/open?id=1KZ4g3gUdVBrJhVm25DEtQED9RzWkXBigd-MQEXCo7VM)	
 
-- # Практика: LinearLayout		
+### Практика: LinearLayout		
 
 * [Видео](https://www.youtube.com/watch?v=s4T0QDe6Ie8)		
-- # Практика: RelativeLayout		
+### Практика: RelativeLayout		
 
- * [Видео](https://www.youtube.com/watch?v=rFhjGmLvTzc)		
-- # Практика: TableLayout		
+* [Видео](https://www.youtube.com/watch?v=rFhjGmLvTzc)		
+### Практика: TableLayout		
 
- * [Видео](https://www.youtube.com/watch?v=VuNcCZ7JGKc)	
-- # Практика: ConstraintLayout		
+* [Видео](https://www.youtube.com/watch?v=VuNcCZ7JGKc)	
+### Практика: ConstraintLayout		
 
 * [Видео](https://www.youtube.com/watch?v=v5VwDmxxcik)	
-- # Практика: WebView		
+### Практика: WebView		
 
-[Видео](https://www.youtube.com/watch?v=TQGJO_JDUh0)	
-- # Практика: Работа с ресурсами				
-- # Практика: Стили и темы				
+* [Видео](https://www.youtube.com/watch?v=TQGJO_JDUh0)	
+### Практика: Работа с ресурсами				
+### Практика: Стили и темы				
 
