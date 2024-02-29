@@ -23,12 +23,12 @@ _____
 
 ## Решение практической задачи (20 баллов):
 
-- [Примеры](https://github.com/VladimirAndropov/fa-md-practice/2022)
+- [Примеры](2022)
 
 
 ## Теоретический опрос (40 баллов):
 
-- [Шпаргалки](https://github.com/VladimirAndropov/fa-md-practice/exams)
+- [Шпаргалки](exams)
 
 ## Предварительные требования
 
